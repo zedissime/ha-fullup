@@ -94,4 +94,11 @@ SENSOR_TYPES = {
         "device_class": SensorDeviceClass.VOLUME,
         "state_class": SensorStateClass.MEASUREMENT,
     },
+    "daily_consumption": {
+        "name": "Daily Consumption",
+        "unit": UnitOfVolume.LITERS,
+        "icon": "mdi:fuel",
+        "device_class": SensorDeviceClass.VOLUME,
+        "state_class": SensorStateClass.MEASUREMENT,
+    },
 }
